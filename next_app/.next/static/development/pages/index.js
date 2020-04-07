@@ -2861,12 +2861,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_App_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/App.js */ "./components/App.js");
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/styles.scss */ "./public/styles.scss");
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_styles_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _this = undefined,
     _jsxFileName = "/Users/okioka/dev/anime/next_app/pages/index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
- // import css from '../public/styles.scss'
+
+
 
 var Index = function Index() {
   return __jsx("div", {
