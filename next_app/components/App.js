@@ -25,7 +25,7 @@ export default class Anime extends React.Component {
   // アニメ検索
   // coursはYYYY/Xの形式で渡される
   animeSearch(cours) {
-    const url = "http://api.moemoe.tokyo/anime/v1/master/"+ cours + "?ogp=1"
+    const url = "https://api.moemoe.tokyo/anime/v1/master/"+ cours + "?ogp=1"
     axios.get(url).then(res => { 
       this.setState({anime: res.data})
 
