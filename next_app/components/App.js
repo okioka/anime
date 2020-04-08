@@ -174,9 +174,9 @@ class AnimeForm extends React.Component {
 
   render() {
     // リストボックス内のデータ
-    const coursNodes = this.props.coursList.map((list) => { 
+    const coursNodes = this.props.coursList.map((list, index) => { 
       return(
-        <option value={list.cours}>{list.season}</option>
+        <option key={index} value={list.cours}>{list.season}</option>
       )
     })
     return (
