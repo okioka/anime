@@ -2,7 +2,7 @@
 個人的な勉強用。  
 聖地があるアニメを楽に探せるサイトを作成する。  
 アニメのデータはShangriLa Anime APIから取得。  
-取り扱うデータは2017冬アニメから放送中のクールまで。  
+取り扱うデータは2014冬アニメから放送中のクールまで。  
 
 # 画面サンプル
 [![Image from Gyazo](https://i.gyazo.com/0c8ac47156ad76f4ef227d7a89cb489d.png)](https://gyazo.com/0c8ac47156ad76f4ef227d7a89cb489d)
