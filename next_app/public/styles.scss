@@ -63,14 +63,6 @@ label::before {
   transition: background-color .2s;
 }
 
-label:first-of-type {
-  transform: translateX(-40px);
-}
-
-label:last-of-type {
-  transform: translateX(40px);
-}
-
 label:hover, input:focus + label {
   box-shadow: 0 0 20px rgba(0, 0, 0, .6);
 }
@@ -104,6 +96,7 @@ option {
   border-radius: 3px;
   transition: 0.4s;
   font-size: 1.2em;
+  white-space: nowrap;
 }
 
 
@@ -203,6 +196,7 @@ option {
 
 .move {
   @extend .list;
+  min-width : 150px;
   margin: auto 20px auto 40px;
   position: relative;
   border: 1px solid #000;
@@ -240,7 +234,7 @@ option {
 }
 
 .tile {
-  width: 95%;
+  width: 95%; 
   margin: 10px auto;
   padding: 180px 0 50px 0;
   display: grid;
