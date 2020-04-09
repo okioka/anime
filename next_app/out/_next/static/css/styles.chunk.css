@@ -28,7 +28,6 @@ input {
   left: -9999px; }
 
 label {
-  width: auto;
   display: block;
   position: relative;
   margin: 10px 20px 10px 50px;
@@ -131,8 +130,7 @@ option {
 ._6U07Wl-kMK7Xz1OluPuV3 {
   text-align: center;
   margin: 5px 10% 5px 30%;
-  display: flex;
-  flex-shrink: 2; }
+  display: flex; }
 
 ._1nReRm93trfXGQvryAN51J {
   background: linear-gradient(95deg, #FFB6C1, #F4A460);
