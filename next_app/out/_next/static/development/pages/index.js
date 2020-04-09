@@ -489,7 +489,9 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
 
       var twitterURL = "https://twitter.com/".concat(this.props.twitter); // 聖地が無ければ聖地データは入れない
 
-      var city = "".concat(this.props.city).replace(/\|/g, '');
+      var city = "".concat(this.props.city).replace(/\|/g, ''); // 聖地にパイプが入っていることがるので除去する
+
+      city = city.replace('|', '');
 
       if (city === "") {
         city = "";
@@ -503,7 +505,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 240,
+          lineNumber: 244,
           columnNumber: 7
         }
       }, __jsx("div", {
@@ -511,7 +513,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241,
+          lineNumber: 245,
           columnNumber: 9
         }
       }, __jsx("a", {
@@ -520,7 +522,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242,
+          lineNumber: 246,
           columnNumber: 11
         }
       }, __jsx("img", {
@@ -532,7 +534,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 243,
+          lineNumber: 247,
           columnNumber: 13
         }
       }))), __jsx("div", {
@@ -540,7 +542,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 246,
+          lineNumber: 250,
           columnNumber: 9
         }
       }, __jsx("a", {
@@ -549,7 +551,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 247,
+          lineNumber: 251,
           columnNumber: 11
         }
       }, __jsx("div", {
@@ -557,7 +559,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 248,
+          lineNumber: 252,
           columnNumber: 13
         }
       }, this.props.title), __jsx("div", {
@@ -565,7 +567,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 251,
+          lineNumber: 255,
           columnNumber: 13
         }
       }, city)), __jsx("a", {
@@ -574,7 +576,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 255,
+          lineNumber: 259,
           columnNumber: 11
         }
       }, __jsx("div", {
@@ -582,7 +584,7 @@ var AnimeData = /*#__PURE__*/function (_React$Component5) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 256,
+          lineNumber: 260,
           columnNumber: 13
         }
       }, "twitter : @", this.props.twitter))));
@@ -3564,7 +3566,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fokioka%2Fdev%2Fanime%2Fnext_app%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************/
@@ -3587,5 +3589,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

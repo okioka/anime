@@ -223,12 +223,16 @@ class AnimeList extends React.Component {
 class AnimeData extends React.Component {
   render() {
     // 作品タイトル+聖地名でGoogle検索するURL
-    const searchURL = `https://www.google.com/search?q=${this.props.title}+${this.props.city}`
+    const searchURL  = `https://www.google.com/search?q=${this.props.title}+${this.props.city}`
     // 公式TwitterアカウントのURL
     const twitterURL = `https://twitter.com/${this.props.twitter}`
 
     // 聖地が無ければ聖地データは入れない
-    let   city      = `${this.props.city}`.replace(/\|/g, '')
+    let   city       = `${this.props.city}`.replace(/\|/g, '')
+    
+    // 聖地にパイプが入っていることがるので除去する
+    city = city.replace('|', '')
+
     if(city === "") {
       city = ""
     } else {
