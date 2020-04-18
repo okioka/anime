@@ -26,7 +26,7 @@ export default class Anime extends React.Component {
   // coursはYYYY/Xの形式で渡される
   animeSearch(cours) {
     const url = "https://api.moemoe.tokyo/anime/v1/master/"+ cours + "?ogp=1"
-    axios.get(url).then(res => { 
+    axios.get(url).then(res => {
       this.setState({anime: res.data})
 
       // 聖地のみなら0件チェック
@@ -38,7 +38,7 @@ export default class Anime extends React.Component {
       alert("データの表示ができません")
       console.log("データ表示NG")
       console.log(error)
-    }) 
+    })
   }
 
   // 聖地のみ絞りこむチェックボックスの状態を変更する
@@ -94,7 +94,7 @@ export default class Anime extends React.Component {
     const date = new Date()
     const year = date.getFullYear()
     const month = date.getMonth() + 1
-    const now = year + '/' + this.getCours(month) 
+    const now = year + '/' + this.getCours(month)
     return now
   }
 
@@ -113,13 +113,13 @@ export default class Anime extends React.Component {
           const cours = i + '/' + j
           const season = i + '年 ' + this.getSeason(j)
           coursList.push({season: season, cours: cours})
-        } 
+        }
       } else {
         for(var j = 4; j >= 1; j--) {
           const cours = i + '/' + j
           const season = i + '年 ' + this.getSeason(j)
           coursList.push({season: season, cours: cours})
-        } 
+        }
       }
     }
     this.setState({coursList: coursList})
@@ -174,7 +174,7 @@ class AnimeForm extends React.Component {
 
   render() {
     // リストボックス内のデータ
-    const coursNodes = this.props.coursList.map((list, index) => { 
+    const coursNodes = this.props.coursList.map((list, index) => {
       return(
         <option key={index} value={list.cours}>{list.season}</option>
       )
@@ -197,10 +197,10 @@ class AnimeForm extends React.Component {
 class AnimeList extends React.Component {
   render() {
     // アニメデータ
-    const animeNodes = this.props.anime.map((anime) => { 
-      // 聖地のみ出力するか判定する部分  
+    const animeNodes = this.props.anime.map((anime) => {
+      // 聖地のみ出力するか判定する部分
       if(this.props.checked) {
-        if(`${anime.city_name}`) { 
+        if(`${anime.city_name}`) {
           return(
             <AnimeData key={anime.id} title={anime.title} url={anime.public_url} img={anime.ogp.og_image} city={anime.city_name} twitter={anime.twitter_account}></AnimeData>
           )
@@ -209,7 +209,7 @@ class AnimeList extends React.Component {
         return(
           <AnimeData key={anime.id} title={anime.title} url={anime.public_url} img={anime.ogp.og_image} city={anime.city_name} twitter={anime.twitter_account}></AnimeData>
         )
-      }  
+      }
     })
 
     return (
@@ -229,7 +229,7 @@ class AnimeData extends React.Component {
 
     // 聖地が無ければ聖地データは入れない
     let   city       = `${this.props.city}`.replace(/\|/g, '')
-    
+
     // 聖地にパイプが入っていることがるので除去する
     city = city.replace('|', '')
 
