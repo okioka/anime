@@ -1,6 +1,5 @@
-import App  from '../components/App.js'
+import Anime  from '../components/Anime.js'
 import Head from 'next/head'
-import css from '../public/styles.scss'
 
 const Index = () => (
   <div>
@@ -8,7 +7,7 @@ const Index = () => (
       <title>アニメ検索</title>
       <meta name="viewport" content="width=1280"></meta>
     </Head>
-    <App />
+    <Anime />
   </div>
 )
 

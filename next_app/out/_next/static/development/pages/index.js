@@ -1,55 +1,59 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/App.js":
-/*!***************************!*\
-  !*** ./components/App.js ***!
-  \***************************/
+/***/ "./components/Anime.js":
+/*!*****************************!*\
+  !*** ./components/Anime.js ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Anime; });
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../public/styles.scss */ "./public/styles.scss");
-/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_public_styles_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Header_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Header.js */ "./components/Header.js");
+/* harmony import */ var _AnimeForm_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./AnimeForm.js */ "./components/AnimeForm.js");
+/* harmony import */ var _AnimeList_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./AnimeList.js */ "./components/AnimeList.js");
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/styles.scss */ "./public/styles.scss");
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_public_styles_scss__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
 
 
 
+var _jsxFileName = "/Users/okioka/dev/anime/next_app/components/Anime.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
-var _jsxFileName = "/Users/okioka/dev/anime/next_app/components/App.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
-
-function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
+function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
 
 
 
  // ページ全体
 
 var Anime = /*#__PURE__*/function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Anime, _React$Component);
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Anime, _React$Component);
 
   var _super = _createSuper(Anime);
 
   function Anime(props) {
     var _this;
 
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Anime);
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Anime);
 
     _this = _super.call(this, props);
     _this.state = {
@@ -57,13 +61,13 @@ var Anime = /*#__PURE__*/function (_React$Component) {
       coursList: [],
       checked: false
     };
-    _this.check = _this.check.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
-    _this.animeSearch = _this.animeSearch.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
-    _this.getNowCours = _this.getNowCours.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    _this.check = _this.check.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this));
+    _this.animeSearch = _this.animeSearch.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this));
+    _this.getNowCours = _this.getNowCours.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this));
     return _this;
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Anime, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Anime, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       // 現在放送中のデータを最初に表示する
@@ -78,7 +82,7 @@ var Anime = /*#__PURE__*/function (_React$Component) {
       var _this2 = this;
 
       var url = "https://api.moemoe.tokyo/anime/v1/master/" + cours + "?ogp=1";
-      axios__WEBPACK_IMPORTED_MODULE_8___default.a.get(url).then(function (res) {
+      axios__WEBPACK_IMPORTED_MODULE_7___default.a.get(url).then(function (res) {
         _this2.setState({
           anime: res.data
         }); // 聖地のみなら0件チェック
@@ -208,25 +212,25 @@ var Anime = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 130,
+          lineNumber: 133,
           columnNumber: 7
         }
       }, __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.header,
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_11___default.a.header,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 134,
           columnNumber: 9
         }
-      }, __jsx(Header, {
+      }, __jsx(_Header_js__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132,
+          lineNumber: 135,
           columnNumber: 11
         }
-      }), __jsx(AnimeForm, {
+      }), __jsx(_AnimeForm_js__WEBPACK_IMPORTED_MODULE_9__["default"], {
         search: function search(cours) {
           return _this3.animeSearch(cours);
         },
@@ -236,16 +240,16 @@ var Anime = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 136,
           columnNumber: 11
         }
-      })), __jsx(AnimeList, {
+      })), __jsx(_AnimeList_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
         anime: this.state.anime,
         checked: this.state.checked,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 138,
           columnNumber: 9
         }
       }));
@@ -253,56 +257,228 @@ var Anime = /*#__PURE__*/function (_React$Component) {
   }]);
 
   return Anime;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component); // ヘッダー部
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+
+
+/***/ }),
+
+/***/ "./components/AnimeData.js":
+/*!*********************************!*\
+  !*** ./components/AnimeData.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AnimeData; });
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../public/styles.scss */ "./public/styles.scss");
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
 
 
 
 
-var Header = /*#__PURE__*/function (_React$Component2) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Header, _React$Component2);
 
-  var _super2 = _createSuper(Header);
+var _jsxFileName = "/Users/okioka/dev/anime/next_app/components/AnimeData.js";
 
-  function Header() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Header);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
-    return _super2.apply(this, arguments);
+function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+var AnimeData = /*#__PURE__*/function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(AnimeData, _React$Component);
+
+  var _super = _createSuper(AnimeData);
+
+  function AnimeData() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AnimeData);
+
+    return _super.apply(this, arguments);
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Header, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AnimeData, [{
     key: "render",
     value: function render() {
-      return __jsx("h1", {
+      // 作品タイトル+聖地名でGoogle検索するURL
+      var searchURL = "https://www.google.com/search?q=".concat(this.props.title, "+").concat(this.props.city); // 公式TwitterアカウントのURL
+
+      var twitterURL = "https://twitter.com/".concat(this.props.twitter); // 聖地が無ければ聖地データは入れない
+
+      var city = "".concat(this.props.city).replace(/\|/g, ''); // 聖地にパイプが入っていることがるので除去する
+
+      city = city.replace('|', '');
+
+      if (city === "") {
+        city = "";
+      } else {
+        city = "聖地 : " + city;
+      } // 画像のURLはテスト用
+
+
+      return __jsx("div", {
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.card,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145,
+          lineNumber: 24,
           columnNumber: 7
         }
-      }, "\u30A2\u30CB\u30E1\u691C\u7D22");
+      }, __jsx("div", {
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.card_imgframe + ' ' + _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.box_1x1,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 9
+        }
+      }, __jsx("a", {
+        href: this.props.url,
+        target: "_blank",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 11
+        }
+      }, __jsx("img", {
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.card_img,
+        src: this.props.img,
+        onError: function onError(e) {
+          return e.target.src = 'http://design-ec.com/d/e_others_50/m_e_others_500.png';
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 13
+        }
+      }))), __jsx("div", {
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.card_textbox,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 9
+        }
+      }, __jsx("a", {
+        href: searchURL,
+        target: "_blank",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 11
+        }
+      }, __jsx("div", {
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.card_titletext,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 13
+        }
+      }, this.props.title), __jsx("div", {
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.card_overviewtext,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 13
+        }
+      }, city)), __jsx("a", {
+        href: twitterURL,
+        target: "_blank",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 11
+        }
+      }, __jsx("div", {
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.card_overviewtext,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 13
+        }
+      }, "twitter : @", this.props.twitter))));
     }
   }]);
 
-  return Header;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component); // 検索フォーム
+  return AnimeData;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 
-var AnimeForm = /*#__PURE__*/function (_React$Component3) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(AnimeForm, _React$Component3);
 
-  var _super3 = _createSuper(AnimeForm);
+/***/ }),
+
+/***/ "./components/AnimeForm.js":
+/*!*********************************!*\
+  !*** ./components/AnimeForm.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AnimeForm; });
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../public/styles.scss */ "./public/styles.scss");
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_public_styles_scss__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/okioka/dev/anime/next_app/components/AnimeForm.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+ // 検索フォーム
+
+var AnimeForm = /*#__PURE__*/function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(AnimeForm, _React$Component);
+
+  var _super = _createSuper(AnimeForm);
 
   function AnimeForm(props) {
-    var _this4;
+    var _this;
 
     Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AnimeForm);
 
-    _this4 = _super3.call(this, props);
-    _this4.state = {
+    _this = _super.call(this, props);
+    _this.state = {
       cours: ""
     };
-    _this4.handleChange = _this4.handleChange.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this4));
-    return _this4;
+    _this.handleChange = _this.handleChange.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    return _this;
   } // リストボックスを変更せずに検索ボタンをクリックすると
   // 404エラーになってしまう
   // ここで現在放送中の放送クールを初期値として設定
@@ -325,35 +501,35 @@ var AnimeForm = /*#__PURE__*/function (_React$Component3) {
   }, {
     key: "render",
     value: function render() {
-      var _this5 = this;
+      var _this2 = this;
 
       // リストボックス内のデータ
       var coursNodes = this.props.coursList.map(function (list, index) {
         return __jsx("option", {
           key: index,
           value: list.cours,
-          __self: _this5,
+          __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 179,
+            lineNumber: 30,
             columnNumber: 9
           }
         }, list.season);
       });
       return __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.form,
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.form,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 183,
+          lineNumber: 34,
           columnNumber: 7
         }
       }, __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.move,
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.move,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184,
+          lineNumber: 35,
           columnNumber: 9
         }
       }, __jsx("select", {
@@ -362,18 +538,18 @@ var AnimeForm = /*#__PURE__*/function (_React$Component3) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 185,
+          lineNumber: 36,
           columnNumber: 11
         }
       }, coursNodes)), __jsx("button", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.btn,
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_8___default.a.btn,
         onClick: function onClick() {
-          return _this5.props.search(_this5.state.cours);
+          return _this2.props.search(_this2.state.cours);
         },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 189,
+          lineNumber: 40,
           columnNumber: 9
         }
       }, "\u691C\u7D22"), __jsx("input", {
@@ -384,7 +560,7 @@ var AnimeForm = /*#__PURE__*/function (_React$Component3) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 190,
+          lineNumber: 41,
           columnNumber: 9
         }
       }), __jsx("label", {
@@ -392,7 +568,7 @@ var AnimeForm = /*#__PURE__*/function (_React$Component3) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 191,
+          lineNumber: 42,
           columnNumber: 9
         }
       }, "\u8056\u5730\u304C\u3042\u308B\u30A2\u30CB\u30E1\u306E\u307F"));
@@ -402,65 +578,105 @@ var AnimeForm = /*#__PURE__*/function (_React$Component3) {
   return AnimeForm;
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
-var AnimeList = /*#__PURE__*/function (_React$Component4) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(AnimeList, _React$Component4);
 
-  var _super4 = _createSuper(AnimeList);
+
+/***/ }),
+
+/***/ "./components/AnimeList.js":
+/*!*********************************!*\
+  !*** ./components/AnimeList.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AnimeList; });
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../public/styles.scss */ "./public/styles.scss");
+/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _AnimeData__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./AnimeData */ "./components/AnimeData.js");
+
+
+
+
+
+var _jsxFileName = "/Users/okioka/dev/anime/next_app/components/AnimeList.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
+function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+
+var AnimeList = /*#__PURE__*/function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(AnimeList, _React$Component);
+
+  var _super = _createSuper(AnimeList);
 
   function AnimeList() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AnimeList);
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AnimeList);
 
-    return _super4.apply(this, arguments);
+    return _super.apply(this, arguments);
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(AnimeList, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AnimeList, [{
     key: "render",
     value: function render() {
-      var _this6 = this;
+      var _this = this;
 
       // アニメデータ
       var animeNodes = this.props.anime.map(function (anime) {
-        // 聖地のみ出力するか判定する部分  
-        if (_this6.props.checked) {
+        // 聖地のみ出力するか判定する部分
+        if (_this.props.checked) {
           if ("".concat(anime.city_name)) {
-            return __jsx(AnimeData, {
+            return __jsx(_AnimeData__WEBPACK_IMPORTED_MODULE_7__["default"], {
               key: anime.id,
               title: anime.title,
               url: anime.public_url,
               img: anime.ogp.og_image,
               city: anime.city_name,
               twitter: anime.twitter_account,
-              __self: _this6,
+              __self: _this,
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 205,
+                lineNumber: 12,
                 columnNumber: 13
               }
             });
           }
         } else {
-          return __jsx(AnimeData, {
+          return __jsx(_AnimeData__WEBPACK_IMPORTED_MODULE_7__["default"], {
             key: anime.id,
             title: anime.title,
             url: anime.public_url,
             img: anime.ogp.og_image,
             city: anime.city_name,
             twitter: anime.twitter_account,
-            __self: _this6,
+            __self: _this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 210,
+              lineNumber: 17,
               columnNumber: 11
             }
           });
         }
       });
       return __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.tile,
+        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_6___default.a.tile,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 216,
+          lineNumber: 23,
           columnNumber: 7
         }
       }, animeNodes);
@@ -468,131 +684,72 @@ var AnimeList = /*#__PURE__*/function (_React$Component4) {
   }]);
 
   return AnimeList;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-var AnimeData = /*#__PURE__*/function (_React$Component5) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(AnimeData, _React$Component5);
 
-  var _super5 = _createSuper(AnimeData);
 
-  function AnimeData() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AnimeData);
+/***/ }),
 
-    return _super5.apply(this, arguments);
+/***/ "./components/Header.js":
+/*!******************************!*\
+  !*** ./components/Header.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Header; });
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+var _jsxFileName = "/Users/okioka/dev/anime/next_app/components/Header.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
+function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+// ヘッダー部
+var Header = /*#__PURE__*/function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Header, _React$Component);
+
+  var _super = _createSuper(Header);
+
+  function Header() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Header);
+
+    return _super.apply(this, arguments);
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(AnimeData, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
     key: "render",
     value: function render() {
-      // 作品タイトル+聖地名でGoogle検索するURL
-      var searchURL = "https://www.google.com/search?q=".concat(this.props.title, "+").concat(this.props.city); // 公式TwitterアカウントのURL
-
-      var twitterURL = "https://twitter.com/".concat(this.props.twitter); // 聖地が無ければ聖地データは入れない
-
-      var city = "".concat(this.props.city).replace(/\|/g, ''); // 聖地にパイプが入っていることがるので除去する
-
-      city = city.replace('|', '');
-
-      if (city === "") {
-        city = "";
-      } else {
-        city = "聖地 : " + city;
-      } // 画像のURLはテスト用
-
-
-      return __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.card,
+      return __jsx("h1", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244,
+          lineNumber: 5,
           columnNumber: 7
         }
-      }, __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.card_imgframe + ' ' + _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.box_1x1,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 245,
-          columnNumber: 9
-        }
-      }, __jsx("a", {
-        href: this.props.url,
-        target: "_blank",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 246,
-          columnNumber: 11
-        }
-      }, __jsx("img", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.card_img,
-        src: this.props.img,
-        onError: function onError(e) {
-          return e.target.src = 'http://design-ec.com/d/e_others_50/m_e_others_500.png';
-        },
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 247,
-          columnNumber: 13
-        }
-      }))), __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.card_textbox,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 250,
-          columnNumber: 9
-        }
-      }, __jsx("a", {
-        href: searchURL,
-        target: "_blank",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 251,
-          columnNumber: 11
-        }
-      }, __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.card_titletext,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 252,
-          columnNumber: 13
-        }
-      }, this.props.title), __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.card_overviewtext,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 255,
-          columnNumber: 13
-        }
-      }, city)), __jsx("a", {
-        href: twitterURL,
-        target: "_blank",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 259,
-          columnNumber: 11
-        }
-      }, __jsx("div", {
-        className: _public_styles_scss__WEBPACK_IMPORTED_MODULE_9___default.a.card_overviewtext,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 260,
-          columnNumber: 13
-        }
-      }, "twitter : @", this.props.twitter))));
+      }, "\u30A2\u30CB\u30E1\u691C\u7D22");
     }
   }]);
 
-  return AnimeData;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+  return Header;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+
 
 /***/ }),
 
@@ -3507,11 +3664,9 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_App_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/App.js */ "./components/App.js");
+/* harmony import */ var _components_Anime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Anime.js */ "./components/Anime.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../public/styles.scss */ "./public/styles.scss");
-/* harmony import */ var _public_styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_public_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
     _jsxFileName = "/Users/okioka/dev/anime/next_app/pages/index.js";
 
@@ -3520,27 +3675,26 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 var Index = function Index() {
   return __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 5,
       columnNumber: 3
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 6,
       columnNumber: 5
     }
   }, __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 7,
       columnNumber: 7
     }
   }, "\u30A2\u30CB\u30E1\u691C\u7D22"), __jsx("meta", {
@@ -3549,14 +3703,14 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 7
     }
-  })), __jsx(_components_App_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  })), __jsx(_components_Anime_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 10,
       columnNumber: 5
     }
   }));
